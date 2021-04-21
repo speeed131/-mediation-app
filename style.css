@@ -57,4 +57,32 @@ video {
   height: 10%;
   background: none;
   border: 2px solid white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.time-select button:hover {
+  background: white;
+  color: black;
+}
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.sound-picker button:nth-child(1) {
+  background: #4972a1;
+}
+.sound-picker button:nth-child(2) {
+  background: #a14f49
+}
+
+.sound-picker button img {
+  height: 100%;
 }
